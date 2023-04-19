@@ -300,5 +300,10 @@ ul p {
   background-color: var(--primary-text-color);
 }
 .footer-portfolio {
+  padding: 100px 0;
   background-color: var(--primary-text-color);
+}
+
+.img-style {
+  display: block;
 }
