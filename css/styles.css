@@ -38,10 +38,6 @@ ul p {
   padding-right: 15px;
 }
 
-.img {
-  display: block;
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -50,6 +46,7 @@ ul p {
 .link-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px;
   color: var(--blue-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -91,9 +88,10 @@ ul p {
 }
 
 .adress-item:first-child {
-  margin-left: 40px;
+  margin-right: 40px;
 }
 .adress-item {
+  display: flex;
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -155,6 +153,10 @@ ul p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   color: var(--second-white-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -174,6 +176,7 @@ ul p {
 
 /* Section */
 .section-title {
+  margin-bottom: 72px;
   padding-bottom: 120px;
   padding-top: 120px;
   text-align: center;
@@ -190,6 +193,8 @@ ul p {
   background-color: var(--white-footer-color);
 }
 .workers-title {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--second-white-color);
 }
 
@@ -201,8 +206,8 @@ ul p {
 .advantages .item {
   width: 264px;
 }
-
 .text {
+  display: flex;
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
