@@ -186,6 +186,15 @@ ul p {
   background-color: var(--second-white-color);
 }
 
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.advantages .item {
+  width: 264px;
+}
+
 .text {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
@@ -219,6 +228,26 @@ ul p {
 .list .filter-btn:focus {
   color: var(--second-white-color);
   background-color: var(--background-button);
+}
+
+.portfolio-button {
+  display: flex;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-element {
+  width: 360px;
+}
+
+.section-title {
+  display: flex;
+}
+.workers-title {
+  width: calc((100%-72px) / 4);
 }
 
 /* Footer */
