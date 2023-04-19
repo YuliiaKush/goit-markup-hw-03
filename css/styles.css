@@ -38,11 +38,18 @@ ul p {
   padding-right: 15px;
 }
 
+.img {
+  display: block;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .link-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--blue-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -251,7 +258,13 @@ ul p {
 }
 
 /* Footer */
+
+.footer-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer-text {
+  max-width: 264px;
   color: var(--white-footer-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
