@@ -335,7 +335,7 @@ body {
   padding: 120px 0 120px;
 }
 
-.advantages-item {
+.advantages-item, .workers-title {
   width: calc((100% - 72px) / 4);
 }
 
@@ -357,3 +357,10 @@ body {
 .nav.content {
   padding: 24px 0;
 }
+
+.page-work, .workers-group{
+  display: flex; 
+  gap: 24px; 
+  padding-left: 0;
+}
+
