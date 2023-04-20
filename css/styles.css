@@ -137,7 +137,6 @@ body {
 .hero-title {
   margin-top: 0;
   margin-bottom: 48px;
-  max-width: 496px;
   color: var(--second-white-color);
   font-family: "Roboto", sans-serif;
   font-style: 700;
@@ -165,6 +164,7 @@ body {
   cursor: pointer;
 }
 .hero {
+  padding: 188px 0;
   background-color: var(--primary-text-color);
 }
 .main-button:hover,
