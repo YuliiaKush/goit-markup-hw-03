@@ -74,7 +74,7 @@ body {
   letter-spacing: 0.02;
 }
 
-.tel-mailto {
+.auth-nav {
   display: flex;
   gap: 40px;
 }
