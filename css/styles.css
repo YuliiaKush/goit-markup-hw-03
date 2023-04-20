@@ -187,13 +187,9 @@ body {
   text-transform: capitalize;
 }
 .section-team {
-  padding: 120px 0;
   background-color: var(--white-footer-color);
 }
 
-.section-container {
-  padding: 120px 0;
-}
 .workers-title {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -332,10 +328,6 @@ body {
 
 .flex-element {
   width: calc((100% - 48px) / 3);
-}
-
-.main-advantages {
-  padding: 120px 0 120px;
 }
 
 .advantages-item,
