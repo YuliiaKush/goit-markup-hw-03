@@ -76,7 +76,6 @@ body {
 
 .auth-nav {
   display: flex;
-  margin-left: auto;
   gap: 40px;
 }
 
@@ -104,6 +103,7 @@ body {
 .site-nav {
   display: flex;
   margin-left: 76px;
+  padding: 24px 0;
 }
 .site-nav .link {
   margin-right: 40px;
@@ -335,13 +335,15 @@ body {
   padding: 120px 0 120px;
 }
 
-.advantages-item, .workers-title {
+.advantages-item,
+.workers-title {
   width: calc((100% - 72px) / 4);
 }
 
 .secondary-title {
   display: flex;
   gap: 24px;
+  padding-left: 0;
 }
 
 .portfolio-title {
@@ -351,16 +353,16 @@ body {
   margin-bottom: 72px;
 }
 .primary-header {
-  display-flex;
+  display: flex;
 }
 
 .nav.content {
   padding: 24px 0;
 }
 
-.page-work, .workers-group{
-  display: flex; 
-  gap: 24px; 
+.page-work,
+.workers-group {
+  display: flex;
+  gap: 24px;
   padding-left: 0;
 }
-
