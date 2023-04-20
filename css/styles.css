@@ -303,6 +303,7 @@ body {
   display: block;
 }
 .portfolio-flex {
+  padding-left: 0;
   display: flex;
   row-gap: 48px;
   flex-wrap: wrap;
@@ -348,4 +349,11 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+.primary-header {
+  display-flex;
+}
+
+.nav.content {
+  padding: 24px 0;
 }
