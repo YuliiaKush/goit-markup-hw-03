@@ -266,9 +266,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.container-flex {
-  width: calc((100% - 48px) / 3);
-}
 
 .section-title {
   display: flex;
